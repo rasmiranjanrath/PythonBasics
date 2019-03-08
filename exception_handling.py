@@ -1,5 +1,5 @@
 try:
-  fo=open('dat.txt','r+')
+  fo=open('info.txt','r+')
   str=fo.read()
   print(str)
 except IOError:
